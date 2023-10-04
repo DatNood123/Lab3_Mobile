@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:id="@+id/avatar_display"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/avatar"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center"
+            >
+        </ImageView>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnChangeImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="-30dp"
+            android:src="@drawable/camera"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+        </androidx.appcompat.widget.AppCompatImageButton>
+
+        <TextView
+            android:id="@+id/displayNameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gojo Satoru"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp">
+        </TextView>
+
+        <EditText
+            android:id="@+id/editJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="30dp"
+            android:drawableStart="@drawable/baseline_card_travel_24"
+            android:drawablePadding="10dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+        </EditText>
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:drawableStart="@drawable/account"
+            android:drawablePadding="10dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+        </EditText>
+
+        <EditText
+            android:id="@+id/editPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:drawableStart="@drawable/phone"
+            android:drawablePadding="10dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+        </EditText>
+
+        <EditText
+            android:id="@+id/editMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:drawableStart="@drawable/baseline_contact_mail_24"
+            android:drawablePadding="10dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+        </EditText>
+
+        <EditText
+            android:id="@+id/editAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:drawableStart="@drawable/baseline_home_24"
+            android:drawablePadding="10dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+        </EditText>
+
+        <EditText
+            android:id="@+id/editLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:drawableStart="@drawable/link"
+            android:drawablePadding="10dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+        </EditText>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSaveInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#32a83a"
+            android:drawableStart="@drawable/save"
+            android:drawablePadding="15dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:text="SAVE"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck">
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
